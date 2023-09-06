@@ -1,0 +1,245 @@
+@charset ("utf-8");
+
+/*G마켓 산스*/
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'GmarketSansMedium';
+    font-size: 23px;
+    color: #2a293a;
+    min-width: 1450px;
+    background-color: #1f449b;
+}
+
+/*header*/
+#header {
+    background-color: rgb(132, 132, 255);
+}
+
+.header_inner {
+    height: 150px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    /*h1과 #gnb를 정렬*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gnb {
+    font-size: 18px;
+    display: flex;
+    /*li를 정렬해서 메뉴글씨끼리 정렬되게끔 만듦.*/
+    align-items: flex-end;
+}
+
+#gnb li {
+    padding: 40px 20px;
+
+}
+
+#gnb li a {
+    color: #fff;
+}
+
+#gnb li a:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+#gnb li a:hover {
+    color: rgb(255, 245, 103);
+}
+
+/*brand*/
+#brand {
+    width: 1320px;
+    margin: 0 auto;
+    background: url(../images/sub2_brandcolor_background.png)no-repeat;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+#brand h1 {
+    margin-top: 58px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#brand h1 img {
+    margin-top: 150px;
+}
+
+.brand_inner h3 {
+
+    text-align: center;
+
+}
+
+.brand_inner img {
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*whygogocan*/
+#whygogocan {
+    width: 1320px;
+    margin: 0 auto;
+    background: url(../images/sub2_brandcolor_background.png)no-repeat;
+    height: 800px;
+    margin-bottom: 5px;
+}
+
+#whygogocan h2 {
+    text-align: center;
+
+}
+
+#whygogocan h2 img {
+    margin-top: 150px;
+}
+
+.whygogocan_inner ol {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.whygogocan_inner ol li {
+    padding: 2px;
+}
+
+.whygogocan_inner p {
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+/*logo*/
+#logo {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: url(../images/sub2_brandcolor_background.png)no-repeat;
+    height: 800px;
+    margin-bottom: 9px;
+}
+
+#logo h2 {
+    text-align: center;
+}
+
+.logo_inner {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo_main {
+    margin-top: 150px;
+    margin-right: 50px;
+
+    text-align: center;
+}
+
+.logo_sub {
+    margin-left: 50px;
+    margin-top: 150px;
+
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.logo_main h2 {
+    margin-bottom: 80px;
+}
+
+.logo_sub h2 {
+    margin-bottom: 120px;
+}
+
+.logo_sub p {
+    margin-top: 12px;
+}
+
+/*brandcolor*/
+#brandcolor {
+    background: url(../images/sub2_brandcolor_background.png)no-repeat;
+    height: 800px;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#brandcolor h2 {
+    text-align: center;
+}
+
+#brandcolor h2 img {
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+
+.brandcolor_inner {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*footer*/
+#footer {
+    height: 120px;
+    background-color: rgb(132, 132, 255);
+}
+
+
+.footer_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    /*h1과 #gnb를 정렬*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_gnb {
+    display: flex;
+    /*li를 정렬해서 메뉴글씨끼리 정렬되게끔 만듦.*/
+    align-items: flex-end;
+}
+
+#footer_gnb li {
+    padding: 40px 20px;
+
+}
+
+#footer_gnb li a {
+    color: #fff;
+}
